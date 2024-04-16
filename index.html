@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily News</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- creating the navbar -->
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" >
+                <img class="company-logo" src="/images/news-logo.png" alt="Daily News Logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item">Sports</li>
+                    <li class="hover-link nav-item">Finance</li>
+                    <li class="hover-link nav-item">Business</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g. Education">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
     
+    <!-- creating the main body which contains news cards -->
+    <main>
+        <div class="cards-container flex container">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the title</h3>
+                    <h6 id="news-source" class="news-source">End gadget 16/04/2024</h6>
+                    <p class="news-disc" id="news-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minima eveniet sequi voluptas sint tempore veniam fugit dolore consectetur obcaecati.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the title</h3>
+                    <h6 id="news-source" class="news-source">End gadget 16/04/2024</h6>
+                    <p class="news-disc" id="news-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minima eveniet sequi voluptas sint tempore veniam fugit dolore consectetur obcaecati.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the title</h3>
+                    <h6 id="news-source" class="news-source">End gadget 16/04/2024</h6>
+                    <p class="news-disc" id="news-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minima eveniet sequi voluptas sint tempore veniam fugit dolore consectetur obcaecati.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the title</h3>
+                    <h6 id="news-source" class="news-source">End gadget 16/04/2024</h6>
+                    <p class="news-disc" id="news-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minima eveniet sequi voluptas sint tempore veniam fugit dolore consectetur obcaecati.</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
