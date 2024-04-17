@@ -61,6 +61,11 @@ nav{
 .nav-links ul{
     gap: 24px;
 }
+.nav-item.active{
+    color:purple;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 .hover-link{
     cursor:pointer;
 }
@@ -131,6 +136,12 @@ main{
 .card-content{
     padding:12px;
 }
-.news-source{
+.news-source-date .news-source-name{
     margin-block :12px;
+
+}
+.news-source{
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 4px;
 }
